@@ -37,4 +37,8 @@ public class FixingServices {
         while (count < 1) {}
         return "couldn't fix it Jim :(";
     }
+
+    public String stolenCar() {
+        throw new RuntimeException("STOLEN CAR!");
+    }
 }
